@@ -1,9 +1,9 @@
-Item,Component Description,Qty,Approx Cost (INR),Purpose
-1,ESP32-S3-DevKitC-1 (Dual Core LX7 + AI Vector Instructions),1,650,Primary Edge Inference & Audio Processing Core
-2,0.96 inch I2C OLED Display Module (128x64),1,250,Real-time Status and Emotion UI Output
-3,INMP441 I2S Digital Omnidirectional Microphone Module,1,220,Audio Stream Input
-4,MAX98357A I2S 3.2W Class D Audio Amplifier Module,1,180,Audio Response Driver
-5,8 Ohm 2W Mini Speaker,1,120,Voice / Audio Output
-6,TP4056 Type-C Li-Ion Battery Charger Module,1,60,Power Management Unit
-7,18650 3.7V 2500mAh Li-ion Battery,1,250,Portable Power Supply
-8,Breadboard + Jumper Wires Starter Kit,1,200,Prototyping & Circuit Interconnects
+Item,Component Description,Qty,Approx Cost (INR),Link
+1,ESP32-S3-DevKitC-1,1,650,https://robu.in/product/esp32-s3-devkitc-1-n8r2-development-board/
+2,0.96 inch I2C OLED Display (128x64),1,250,https://robu.in/product/0-96-inch-oled-display-module-spi-i2c-128x64/
+3,INMP441 I2S Digital Microphone Module,1,220,https://robu.in/product/inmp441-omnidirectional-microphone-module-is-interface/
+4,MAX98357A I2S 3.2W Class D Amplifier,1,180,https://robu.in/product/max98357-i2s-3-2w-class-d-mono-audio-amplifier-board/
+5,8 Ohm 2W Mini Speaker,1,120,https://robu.in/product/8-ohm-2w-mini-speaker/
+6,TP4056 Type-C Li-Ion Charger Module,1,60,https://robu.in/product/tp4056-1a-li-ion-lithium-battery-charging-module-type-c/
+7,18650 3.7V 2500mAh Li-ion Battery,1,250,https://robu.in/product/samsung-18650-2500mah-li-ion-battery/
+8,Breadboard + Jumper Wires Starter Kit,1,200,https://robu.in/product/breadboard-830-point-with-jumper-wire-pack/
