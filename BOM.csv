@@ -15,3 +15,6 @@ Item,Component Description,Qty,Approx Cost (INR),Link,Notes
 14,Mini USB keyboard,1,500,TODO,For typing questions
 15,USB-A (female) to USB-C OTG adapter,1,150,TODO,Connects the keyboard to the DevKit
 16,USB-C data cable (1m),1,200,TODO,Laptop <-> Mr. Whoami (power + data)
+17,Solder wire 0.8mm rosin core (63/37 or lead-free),1,250,TODO,Already own a soldering iron
+18,Flux paste,1,150,TODO,Makes solder flow properly
+19,Desoldering wick,1,100,TODO,For fixing mistakes
