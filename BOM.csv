@@ -1,9 +1,17 @@
-Item,Component Description,Qty,Approx Cost (INR),Link
-1,ESP32-S3-WROOM-1-N8R2 Module,1,280,https://robu.in/product/esp32-s3-wroom-1-n8r2-wi-fi-bluetooth-5-0-module/
-2,Custom PCB Fabrication (5 pcs - HASL),1,500,https://jlcpcb.com/
-3,0.96 inch I2C OLED Display (128x64),1,250,https://robu.in/product/0-96-inch-oled-display-module-spi-i2c-128x64/
-4,INMP441 I2S Digital Microphone Module,1,220,https://robu.in/product/inmp441-omnidirectional-microphone-module-is-interface/
-5,MAX98357A I2S 3.2W Class D Audio Amplifier,1,180,https://robu.in/product/max98357-i2s-3-2w-class-d-mono-audio-amplifier-board/
-6,8 Ohm 2W Mini Speaker,1,120,https://robu.in/product/8-ohm-2w-mini-speaker/
-7,TP4056 Type-C Li-Ion Battery Charger Module,1,60,https://robu.in/product/tp4056-1a-li-ion-lithium-battery-charging-module-type-c/
-8,18650 3.7V 2500mAh Li-ion Battery,1,250,https://robu.in/product/samsung-18650-2500mah-li-ion-battery/
+Item,Component Description,Qty,Approx Cost (INR),Link,Notes
+1,ESP32-S3-DevKitC-1 N16R8 development board (16MB flash + 8MB PSRAM),1,1000,https://robobazar.in/product/esp32-s3-devkit-n16r8-development-board/,Must be N16R8 and have two USB-C ports (one for laptop + one for keyboard)
+2,"3.5"" SPI TFT display, ST7796 driver, 480x320",1,1200,TODO,Touch not needed. Check it runs on 3.3V logic
+3,MAX98357A I2S Class D mono amplifier module,1,250,TODO,
+4,8 Ohm 2-3W mini speaker (~40mm),1,120,TODO,
+5,60mm arcade push button with LED (5V LED version),2,600,TODO,"One per side: SCRIPT and AI. Many come with 12V LEDs, get 5V ones"
+6,12mm tactile push button (START),2,40,TODO,One spare
+7,WS2812B RGB LED ring (12 LEDs),1,200,TODO,For the reveal effect. Optional if budget is tight
+8,Custom carrier PCB fabrication (5 pcs) incl. shipping + customs,1,2000,https://jlcpcb.com/,Board is cheap; most of the cost is shipping and customs to India
+9,2.54mm female header strips (pack),1,100,TODO,DevKit and modules plug into these on the PCB
+10,JST-XH connector kit,1,300,TODO,For buttons and speaker so wires can be unplugged
+11,Hookup wire + 4.8mm spade connectors,1,250,TODO,Arcade buttons use spade terminals
+12,Perfboard 7x9cm (backup if PCB fails),2,100,TODO,
+13,ABS plastic project box (~200x120x75mm),1,600,TODO,Must fit the 3.5in screen + two 60mm buttons on the front
+14,Mini USB keyboard,1,500,TODO,For typing questions
+15,USB-A (female) to USB-C OTG adapter,1,150,TODO,Connects the keyboard to the DevKit
+16,USB-C data cable (1m),1,200,TODO,Laptop <-> Mr. Whoami (power + data)
