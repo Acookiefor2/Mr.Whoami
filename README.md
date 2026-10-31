@@ -95,4 +95,4 @@ Design phase. Nothing is built yet.
 - **Speed:** a 3B model on a laptop CPU should take a few seconds per short reply. The fixed delay hides this, but it still has to be tested.
 
 ## 🤖 AI use
-I use AI assistants (Claude, Gemini) to help with code and planning. My journals are written by me.
+I use AI assistants (Claude) to help with code and planning. My journals are written by me.
