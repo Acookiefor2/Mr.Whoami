@@ -8,7 +8,7 @@ Item,Component Description,Qty,Approx Cost (INR),Link,Notes
 7,WS2812B RGB LED ring (12 LEDs),1,200,TODO,For the reveal effect. Optional if budget is tight
 8,Custom carrier PCB fabrication (5 pcs) incl. shipping + customs,1,2000,https://jlcpcb.com/,Board is cheap; most of the cost is shipping and customs to India
 9,2.54mm female header strips (pack),1,100,TODO,DevKit and modules plug into these on the PCB
-10,JST-XH connector kit,1,300,TODO,For buttons and speaker so wires can be unplugged
+10,JST-XH connector kit,1,300,TODO,"Sockets for buttons, button lights, LED ring and speaker so wires can be unplugged"
 11,Hookup wire + 4.8mm spade connectors,1,250,TODO,Arcade buttons use spade terminals
 12,Perfboard 7x9cm (backup if PCB fails),2,100,TODO,
 13,ABS plastic project box (~200x120x75mm),1,600,TODO,Must fit the 3.5in screen + two 60mm buttons on the front
@@ -18,3 +18,7 @@ Item,Component Description,Qty,Approx Cost (INR),Link,Notes
 17,Solder wire 0.8mm rosin core (63/37 or lead-free),1,250,TODO,Already own a soldering iron
 18,Flux paste,1,150,TODO,Makes solder flow properly
 19,Desoldering wick,1,100,TODO,For fixing mistakes
+20,BC547 NPN transistor (through-hole TO-92),4,20,TODO,Q1 + Q2 switch the 5V button lights. 2 spares
+21,"Resistors 1/4W through-hole: 1k (x2), 330 ohm (x1)",1,30,TODO,"R1, R2 = transistor base. R3 = LED ring data line. Buy a few extra"
+22,100uF 16V electrolytic capacitor,2,20,TODO,C1. Polarized: + side goes to 5V. 1 spare
+23,100nF ceramic capacitor,2,10,TODO,C2. 1 spare
