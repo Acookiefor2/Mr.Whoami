@@ -227,3 +227,17 @@ __marimo__/
 *.bin
 *.hex
 build/
+*.kicad_prl
+*-backups/
+fp-info-cache
+.history/
+_restore_backup*/
+
+# KiCad personal settings, backups, lock files, reports
+*.kicad_prl
+*-backups/
+fp-info-cache
+.history/
+_restore_backup*/
+*.lck
+ERC.rpt
