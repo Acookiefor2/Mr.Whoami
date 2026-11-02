@@ -9,13 +9,13 @@ When you think you know, you slam one of two big buttons: **SCRIPT** or **AI**. 
 ## 🤔 What even is THIS?
 Mr. Whoami? is a lil guy ofc but also a physical version of my earlier project, [Script or AI?](https://github.com/Acookiefor2/script-or-ai). In that one, an AI was the interrogator: it questioned a hidden opponent and tried to guess whether it was a real script or an AI faking one.
 
-This time, **YOU the human is the interrogator.**
+This time, **YOU, the human, are the interrogator.**
 
 Every round, Mr. Whoami secretly flips a coin (sneaky):
 - **Heads:** you're talking to a real rule-based script.
 - **Tails:** you're talking to a small AI model told to act exactly like that script.
 
-You type questions it answers with a face and little blip sounds, and you try to catch it out.
+You type questions, it answers with a face and little blip sounds, and you try to catch it out.
 
 ## 🎮 How a round works
 1. Press **START**. The laptop secretly picks script or AI.
@@ -87,7 +87,7 @@ This is my first PCB, so it's deliberately simple: a **carrier board**. The DevK
 | Dec 11 | Finished and submitted |
 
 ## 🚧 Status
-Design phase. Nothing is built yet.
+Schematic and carrier PCB done (DRC clean). Next: Gerbers and design submission.
 
 ## ⚠️ Known risks / open questions
 - **Power:** the speaker, LEDs and screen together might pull more than a laptop USB port gives. A separate 5V USB charger is the fallback.
