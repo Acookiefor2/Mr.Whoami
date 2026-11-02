@@ -6,16 +6,16 @@ A little desk buddy with a face. You chat with it, and you have to figure out on
 
 When you think you know, you slam one of two big buttons: **SCRIPT** or **AI**. Then it reveals the truth.
 
-## 🤔 What even is this?
-Mr. Whoami? is a physical version of my earlier project, [Script or AI?](https://github.com/Acookiefor2/script-or-ai). In that one, an AI was the interrogator: it questioned a hidden opponent and tried to guess whether it was a real script or an AI faking one.
+## 🤔 What even is THIS?
+Mr. Whoami? is a lil guy ofc but also a physical version of my earlier project, [Script or AI?](https://github.com/Acookiefor2/script-or-ai). In that one, an AI was the interrogator: it questioned a hidden opponent and tried to guess whether it was a real script or an AI faking one.
 
-This time, **humans are the interrogators.**
+This time, **YOU the human is the interrogator.**
 
-Every round, Mr. Whoami secretly flips a coin:
+Every round, Mr. Whoami secretly flips a coin (sneaky):
 - **Heads:** you're talking to a real rule-based script.
 - **Tails:** you're talking to a small AI model told to act exactly like that script.
 
-You type questions, it answers with a face and little blip sounds, and you try to catch it out.
+You type questions it answers with a face and little blip sounds, and you try to catch it out.
 
 ## 🎮 How a round works
 1. Press **START**. The laptop secretly picks script or AI.
@@ -25,9 +25,9 @@ You type questions, it answers with a face and little blip sounds, and you try t
 5. The crowd scoreboard updates (e.g. "humans fooled: 58%").
 
 ## 💡 Why build it?
-Shenzhen is full of people who are way better at hardware than me. So instead of trying to out-engineer them, I'm challenging them: **bet you can't tell.**
+Shenzhen is full of people who are way better at hardware than me. So instead of trying to out-engineer them and trying to beat them at their own game, I'm changing the battle ground by challenging them: **bet you can't tell.**
 
-It's also a real experiment. By the end, I'll have data on how good **humans** are at this compared to the **AI interrogator** from my first project, at the exact same task.
+It's also a real experiment. By the end, I'll have data on how good **humans** are at this compared to the **AI interrogator** from my first project, at the exact same task. 
 
 ## ⚖️ Keeping it fair
 If the script answered instantly and the AI took 2 seconds, anyone would win in one round. So:
@@ -50,7 +50,7 @@ If the script answered instantly and the AI took 2 seconds, anyone would win in 
 
 Why local and not a cloud API?
 - Most Western AI APIs are blocked in China, so a cloud demo could die on the show floor.
-- Expo Wi-Fi is unreliable. One USB cable carries both power and data, so there's no Wi-Fi involved.
+- Expo Wi-Fi is unreliable. One USB cable carries both power and data, so there's no Wi-Fi involved. 
 
 ## 🛠️ Hardware
 | Part | What it does |
@@ -71,7 +71,7 @@ This is my first PCB, so it's deliberately simple: a **carrier board**. The DevK
 
 ## 📂 Repo structure
 * `BOM.csv` - Parts list with prices and links.
-* `/hardware` - KiCad schematic and carrier PCB.
+* `/schematics` - KiCad schematic and carrier PCB.
 * `/firmware` - ESP32-S3 code: display, face animations, buttons, keyboard, sound.
 * `/brain` - Python on the laptop: script, local model, game logic, logging, scoreboard.
 * `/enclosure` - Enclosure drawings and cutout plans.
