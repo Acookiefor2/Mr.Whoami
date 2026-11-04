@@ -69,6 +69,18 @@ Full parts list with prices: [`BOM.csv`](./BOM.csv).
 ### About the PCB
 This is my first PCB, so it's deliberately simple: a **carrier board**. The DevKit and the modules plug into headers on it, and it routes the connections between them. No power circuitry, no tiny parts. If the PCB fails, the backup is the same circuit on perfboard.
 
+## 📸 Pictures
+
+### Schematic
+![Schematic](images/Mr.Whoami.svg)
+
+### PCB
+![PCB layout](images/pcb.png)
+
+### 3D view
+![3D view of the PCB](images/3dview1.png)
+![3D view of the PCB, angled](images/3dview2.png)
+
 ## 📂 Repo structure
 * `BOM.csv` - Parts list with prices and links.
 * `/schematics` - KiCad schematic and carrier PCB.
