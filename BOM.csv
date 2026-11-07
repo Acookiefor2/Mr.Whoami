@@ -23,6 +23,6 @@ Item,Component Description,Qty,Approx Cost (INR),Link,Notes
 22,"Resistors 1/4W through-hole: 1k (pack of 10), 330 ohm (pack of 10)",1,30,https://www.robozar.com/product/1k-ohm-1-4-watt-resistor-with-5-tolerance-pack-of-10/,"R1, R2 = transistor base. R3 = LED ring data line. Get the 330 ohm pack from the same store"
 23,100uF 16V electrolytic capacitor (pack of 3),1,9,https://componentstree.com/?p=3065,C1. Polarized: + side goes to 5V
 24,100nF ceramic capacitor 104 (pack of 20),1,29,https://electronicspices.com/product/104-50v-ceramic-capacitor-0-1uf-pack-of-20,C2
-25,M3 x 10mm male-female nylon standoffs (10 pcs),1,65,Robu / local shop,"Price est. 10mm to match the enclosure model (board sits 12.5mm above the outside bottom). For the 4 PCB mounting holes (H1-H4)"
+25,M3 x 10mm male-female nylon hex standoffs,4,48,https://probots.co.in/m3-10mm-male-female-nylon-hex-spacer-black.html,"Rs 12 each. 10mm to match the enclosure model (board sits 12.5mm above the outside bottom). For the 4 PCB mounting holes (H1-H4)"
 26,M3 screws + nuts,1,50,Local hardware shop,"Not included with the standoffs. Also used for the 4 screen mounting holes in the front wall"
 27,Hole saw or step drill bit (up to 28mm),1,300,Local hardware shop,"Price est. For the two arcade button holes in the lid (24-28mm, drill to match the real buttons). The 16mm START hole can use the same step drill"
