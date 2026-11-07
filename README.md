@@ -102,7 +102,7 @@ STEP files: [`CAD/Mr.Whoami-enclosure.step`](CAD/Mr.Whoami-enclosure.step) (full
 * `/brain` - (I'll do this soon) Python on the laptop: script, local model, game logic, logging, scoreboard.
 
 ## 🗺️ Plan 
-(small change)
+(small change to it)
 | When | What |
 |---|---|
 | Nov 1 - 10 | Schematic, carrier PCB, BOM, enclosure model. Submit the design |
@@ -118,4 +118,4 @@ Schematic carrier PCB (DRC clean :D) Gerbers, BOM and the enclosure model are do
 - **Power:** the speaker, LEDs and screen together might pull more than a laptop USB port gives. A separate 5V USB charger is the fallback.
 - **Keyboard:** the DevKit's second USB port has to act as a USB host and supply 5V to the keyboard. Still need to confirm the exact setup.
 - **Speed:** a 3B model on a laptop CPU should take a few seconds per short reply. The fixed delay hides this, but it still has to be tested.
-- - **Button depth:** the arcade buttons' depth below the lid isn't listed anywhere on the website when checked so the model assumes 45mm which clears the board and I'll check it when they arrive
+- **Button depth:** the arcade buttons' depth below the lid isn't listed anywhere on the website when checked so the model assumes 45mm which clears the board and I'll check it when they arrive
