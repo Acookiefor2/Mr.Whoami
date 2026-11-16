@@ -93,12 +93,19 @@ Onshape model: [open in Onshape](https://cad.onshape.com/documents/b74af73a84494
 
 STEP files: [`CAD/Mr.Whoami-enclosure.step`](CAD/Mr.Whoami-enclosure.step) (full box) and [`CAD/Mr.Whoami.step`](CAD/Mr.Whoami.step) (PCB only)
 
+## 🔧 Building the firmware
+install vs code
+install the PlatformIO extension for VsCode
+Open the firmware folder in VS Code
+Click the ✓ in the bottom bar to build
+Plug the DevKit into the UART USB-C port and click the → to upload
+
 ## 📂 Repo structure
 * `BOM.csv` - Parts list with prices and links.
 * `/schematics` - KiCad schematic, carrier PCB and Gerbers.
 * `/CAD` - STEP files for the PCB and the enclosure.
 * `/images` - Pictures used in this README.
-* `/firmware` - ESP32-S3 code: display, face animations, buttons, keyboard, sound.
+* `/firmware` - ESP32-S3 code. Right now: pin map + button test. Coming soon (before doomsday): screen, face, LED ring, sound, keyboard.
 * `/brain` - (I'll do this soon) Python on the laptop: script, local model, game logic, logging, scoreboard.
 
 ## 🗺️ Plan 
@@ -112,7 +119,9 @@ STEP files: [`CAD/Mr.Whoami-enclosure.step`](CAD/Mr.Whoami-enclosure.step) (full
 | Dec 11 | Finished and submitted |
 
 ## 🚧 Status
-Schematic carrier PCB (DRC clean :D) Gerbers, BOM and the enclosure model are done,next are firmware sketch and then design submission.
+schematic, PCB, Gerbers, BOM, enclosure: done
+firmware chunk 1 (pin map + button test): done and IT compiles (finally)
+design: submitted, waiting for parts
 
 ## ⚠️ Known risks / open questions
 - **Power:** the speaker, LEDs and screen together might pull more than a laptop USB port gives. A separate 5V USB charger is the fallback.
