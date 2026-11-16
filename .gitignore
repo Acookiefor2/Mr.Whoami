@@ -240,4 +240,6 @@ fp-info-cache
 .history/
 _restore_backup*/
 *.lck
-ERC.rptdesktop.ini
+ERC.rpt
+desktop.ini
+.pio/
