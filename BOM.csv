@@ -1,28 +1,28 @@
-Item,Component Description,Qty,Approx Cost (INR),Link,Notes
-1,ESP32-S3-DevKitC-1 N16R8 development board (16MB flash + 8MB PSRAM),1,1000,https://robobazar.in/product/esp32-s3-devkit-n16r8-development-board/,Must be N16R8 and have two USB-C ports (one for laptop + one for keyboard)
-2,"3.5"" SPI TFT display, ST7796 driver, 480x320",1,1200,https://www.aliexpress.com/item/1005005995931721.html,"Not stocked by Indian stores I checked, so AliExpress (~$7 + shipping). Touch version is fine, touch pins just stay unconnected. Check pin order vs J4 before wiring"
-3,MAX98357A I2S Class D mono amplifier module,1,300,https://kspelectronics.in/product/max98357-i2s-3w-class-d-audio-amplifier-module/,"Price est. Get the common 7-pin breakout (LRC, BCLK, DIN, GAIN, SD, GND, VIN) so it matches J5. The DFRobot version has a different pinout"
-4,8 Ohm 2W mini speaker,1,200,https://probots.co.in/8-ohm-2w-2440-mm-slim-mini-audio-speaker.html,Connects to the amp's own speaker terminal
-5,60mm arcade push button with LED (5V LED version),2,600,https://www.aliexpress.com/item/1005004647405750.html,"One per side: SCRIPT and AI. Pick the 5V LED option, 12V LEDs are dim on 5V. Cheapest Indian option was an Amazon 5-pack at ~Rs 3,500"
-6,16mm panel-mount momentary push button (START),2,60,https://thingbits.in/products/16mm-panel-mount-momentary-pushbutton-normally-open,Panel mount so it screws into the box (a PCB tactile switch can't). One spare
-7,"WS2812B RGB LED ring (12 LEDs, ~37mm outer diameter)",1,170,https://www.theengineerstore.in/products/ws2812-12-bit-rgb-led-round,"For the reveal effect. Sits on the lid around the START button. Inner hole must be bigger than ~18mm to fit around the START head (37mm rings are usually ~23mm inside, check before ordering). Swapped from the 85mm ring, which didn't fit anywhere"
-8,Custom carrier PCB fabrication (5 pcs) incl. shipping + customs,1,2000,https://jlcpcb.com/,Board is ~83x70mm (under the cheap 100x100mm tier); most of the cost is shipping and customs to India
-9,2.54mm 1x40 female header strips (pack of 10),1,97,https://robu.in/?p=555698,"J1, J3 (DevKit) and J5 (amp) sockets on the PCB"
-10,2.54mm 1x40 male header strips (pack of 3),1,40,https://robu.in/?p=1114172,"Price est. J4 and J6-J11 on the PCB are male headers"
-11,Female-to-female Dupont jumper wires (40 pcs 20cm),1,69,https://probots.co.in/jumper-wire-female-to-female.html,"Screen, buttons, button lights and LED ring to the PCB headers"
-12,Insulated spade terminal kit (4.8mm + 6.3mm),1,280,https://www.thingbits.in/products/male-female-insulated-spade-terminals-kit-2-8mm-4-8mm-6-3mm,"Arcade button switches use 4.8mm, the LED holders often use 6.3mm. Crimp onto cut jumper wires"
-13,22 AWG multi-strand hookup wire,1,70,https://probots.co.in/multi-stranded-hookup-wire.html,General wiring inside the box
-14,Perfboard 7x9cm double sided (backup if PCB fails),2,100,https://robu.in/?p=44231,Was out of stock on robu when checked
-15,ABS plastic project box (200x120x75mm),1,900,https://robu.in/?p=1284484,"Screen goes on the front wall (landscape), SCRIPT/AI/START buttons on the lid, USB cables out the right wall. See CAD/Mr.Whoami-enclosure.step. Was out of stock on robu when checked"
-16,Mini USB keyboard (wired),1,500,Amazon.in / local shop,Any small wired USB keyboard. For typing questions
-17,USB-A (female) to USB-C (male) OTG adapter,1,150,https://thinkrobotics.com/es/products/usb-type-c-male-to-usb-a-female-adapter-online,Price est. Connects the keyboard to the DevKit
-18,USB-C data cable (1m),1,200,Amazon.in / local shop,"Laptop <-> Mr. Whoami (power + data). Must be a data cable, not charge-only"
-19,Solder wire 0.8mm rosin core + flux paste kit,1,350,https://robu.in/?p=1628074,"Price est. Already own a soldering iron. Was out of stock on robu when checked"
-20,Desoldering wick,1,39,https://robu.in/?p=7795,For fixing mistakes
-21,BC547 NPN transistor (through-hole TO-92) pack of 20,1,39,https://robu.in/?p=598304,Q1 + Q2 switch the 5V button lights. Lots of spares
-22,"Resistors 1/4W through-hole: 1k (pack of 10), 330 ohm (pack of 10)",1,30,https://www.robozar.com/product/1k-ohm-1-4-watt-resistor-with-5-tolerance-pack-of-10/,"R1, R2 = transistor base. R3 = LED ring data line. Get the 330 ohm pack from the same store"
-23,100uF 16V electrolytic capacitor (pack of 3),1,9,https://componentstree.com/?p=3065,C1. Polarized: + side goes to 5V
-24,100nF ceramic capacitor 104 (pack of 20),1,29,https://electronicspices.com/product/104-50v-ceramic-capacitor-0-1uf-pack-of-20,C2
-25,M3 x 10mm male-female nylon hex standoffs,4,48,https://probots.co.in/m3-10mm-male-female-nylon-hex-spacer-black.html,"Rs 12 each. 10mm to match the enclosure model (board sits 12.5mm above the outside bottom). For the 4 PCB mounting holes (H1-H4)"
-26,M3 screws + nuts,1,50,Local hardware shop,"Not included with the standoffs. Also used for the 4 screen mounting holes in the front wall"
-27,Hole saw or step drill bit (up to 28mm),1,300,Local hardware shop,"Price est. For the two arcade button holes in the lid (24-28mm, drill to match the real buttons). The 16mm START hole can use the same step drill"
+Item,Component Description,Qty,Unit Cost (USD),Total Cost (USD),Link,Notes
+1,ESP32-S3-DevKitC-1 N16R8 development board (16MB flash + 8MB PSRAM),1,10.65,10.65,https://robobazar.in/product/esp32-s3-devkit-n16r8-development-board/,Must be N16R8 and have two USB-C ports (one for laptop + one for keyboard)
+2,"3.5"" SPI TFT display, ST7796 driver, 480x320",1,12.78,12.78,https://www.aliexpress.com/item/1005005995931721.html,"Not stocked by Indian stores I checked, so AliExpress (~$7 + shipping). Touch version is fine, touch pins just stay unconnected. Check pin order vs J4 before wiring"
+3,MAX98357A I2S Class D mono amplifier module,1,3.19,3.19,https://kspelectronics.in/product/max98357-i2s-3w-class-d-audio-amplifier-module/,"Price est. Get the common 7-pin breakout (LRC, BCLK, DIN, GAIN, SD, GND, VIN) so it matches J5. The DFRobot version has a different pinout"
+4,8 Ohm 2W mini speaker,1,2.13,2.13,https://probots.co.in/8-ohm-2w-2440-mm-slim-mini-audio-speaker.html,Connects to the amp's own speaker terminal
+5,60mm arcade push button with LED (5V LED version),2,3.19,6.39,https://www.aliexpress.com/item/1005004647405750.html,"One per side: SCRIPT and AI. Pick the 5V LED option, 12V LEDs are dim on 5V. Cheapest Indian option was an Amazon 5-pack at ~Rs 3,500"
+6,16mm panel-mount momentary push button (START),2,0.32,0.64,https://thingbits.in/products/16mm-panel-mount-momentary-pushbutton-normally-open,Panel mount so it screws into the box (a PCB tactile switch can't). One spare
+7,"WS2812B RGB LED ring (12 LEDs, ~37mm outer diameter)",1,1.81,1.81,https://www.theengineerstore.in/products/ws2812-12-bit-rgb-led-round,"For the reveal effect. Sits on the lid around the START button. Inner hole must be bigger than ~18mm to fit around the START head (37mm rings are usually ~23mm inside, check before ordering). Swapped from the 85mm ring, which didn't fit anywhere"
+8,Custom carrier PCB fabrication (5 pcs) incl. shipping + customs,1,21.30,21.30,https://jlcpcb.com/,Board is ~83x70mm (under the cheap 100x100mm tier); most of the cost is shipping and customs to India
+9,2.54mm 1x40 female header strips (pack of 10),1,1.03,1.03,https://robu.in/?p=555698,"J1, J3 (DevKit) and J5 (amp) sockets on the PCB"
+10,2.54mm 1x40 male header strips (pack of 3),1,0.43,0.43,https://robu.in/?p=1114172,Price est. J4 and J6-J11 on the PCB are male headers
+11,Female-to-female Dupont jumper wires (40 pcs 20cm),1,0.73,0.73,https://probots.co.in/jumper-wire-female-to-female.html,"Screen, buttons, button lights and LED ring to the PCB headers"
+12,Insulated spade terminal kit (4.8mm + 6.3mm),1,2.98,2.98,https://www.thingbits.in/products/male-female-insulated-spade-terminals-kit-2-8mm-4-8mm-6-3mm,"Arcade button switches use 4.8mm, the LED holders often use 6.3mm. Crimp onto cut jumper wires"
+13,22 AWG multi-strand hookup wire,1,0.75,0.75,https://probots.co.in/multi-stranded-hookup-wire.html,General wiring inside the box
+14,Perfboard 7x9cm double sided (backup if PCB fails),2,0.53,1.06,https://robu.in/?p=44231,Was out of stock on robu when checked
+15,ABS plastic project box (200x120x75mm),1,9.58,9.58,https://robu.in/?p=1284484,"Screen goes on the front wall (landscape), SCRIPT/AI/START buttons on the lid, USB cables out the right wall. See CAD/Mr.Whoami-enclosure.step. Was out of stock on robu when checked"
+16,Mini USB keyboard (wired),1,5.32,5.32,https://www.flipkart.com/frontech-mini-multimedia-keyboard-kb-0004-wired-usb-desktop/p/itm7e8bfc9bce495,Any small wired USB keyboard works. For typing questions. Price est.
+17,USB-A (female) to USB-C (male) OTG adapter,1,1.60,1.60,https://thinkrobotics.com/es/products/usb-type-c-male-to-usb-a-female-adapter-online,Price est. Connects the keyboard to the DevKit
+18,USB-C data cable (1m),1,2.13,2.13,https://www.flipkart.com/robotek-dc-106-1-m-usb-type-c-cable/p/itm6a4b9575fcceb,"Laptop <-> Mr. Whoami (power + data). Must be a data cable, not charge-only. Price est."
+19,Solder wire 0.8mm rosin core + flux paste kit,1,3.73,3.73,https://robu.in/?p=1628074,Price est. Already own a soldering iron. Was out of stock on robu when checked
+20,Desoldering wick,1,0.42,0.42,https://robu.in/?p=7795,For fixing mistakes
+21,BC547 NPN transistor (through-hole TO-92) pack of 20,1,0.42,0.42,https://robu.in/?p=598304,Q1 + Q2 switch the 5V button lights. Lots of spares
+22,"Resistors 1/4W through-hole: 1k (pack of 10), 330 ohm (pack of 10)",1,0.32,0.32,https://www.robozar.com/product/1k-ohm-1-4-watt-resistor-with-5-tolerance-pack-of-10/,"R1, R2 = transistor base. R3 = LED ring data line. Get the 330 ohm pack from the same store"
+23,100uF 16V electrolytic capacitor (pack of 3),1,0.10,0.10,https://componentstree.com/?p=3065,C1. Polarized: + side goes to 5V
+24,100nF ceramic capacitor 104 (pack of 20),1,0.31,0.31,https://electronicspices.com/product/104-50v-ceramic-capacitor-0-1uf-pack-of-20,C2
+25,M3 x 10mm male-female nylon hex standoffs,4,0.13,0.51,https://probots.co.in/m3-10mm-male-female-nylon-hex-spacer-black.html,Rs 12 each. 10mm to match the enclosure model (board sits 12.5mm above the outside bottom). For the 4 PCB mounting holes (H1-H4)
+26,M3 screws + nuts,1,0.53,0.53,https://www.tenettech.com/product/easymech-set-of-m3-x-10mm-socket-head-cap-allen-bolt-and-nut-12-pcs-,12 bolts + nuts. Not included with the standoffs. Also used for the 4 screen mounting holes in the front wall. Price est.
+27,Hole saw or step drill bit (up to 28mm),1,3.19,3.19,https://www.flipkart.com/inditrust-heavy-duty-1pc-titanium-spiral-hss-step-drill-bit-4-32mm/p/itmcabe5fc4d1f60,"4-32mm step drill. For the two arcade button holes in the lid (24-28mm, drill to match the real buttons) and the 16mm START hole. Price est."
